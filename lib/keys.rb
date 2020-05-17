@@ -1,3 +1,4 @@
+
 require 'pry'
 
 This is the groceries hash we'll be passing in to the get_the_keys method
@@ -6,7 +7,7 @@ This is the groceries hash we'll be passing in to the get_the_keys method
   vegetable: ["carrots", "broccoli", "cucumbers"],
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
- }
+  }
 
 def get_the_keys(groceries)
   groceries.keys.flatten
